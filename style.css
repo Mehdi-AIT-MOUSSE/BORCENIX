@@ -1,0 +1,164 @@
+*{
+    color: #B29E84;
+    font-family:monospace;
+}
+
+main,header{
+    margin: auto;
+    width: 90%;
+}
+
+body{
+    background-color: #423E3A;
+    margin:  0;
+    height: 100vh;
+
+    
+}
+
+
+header img{
+    width: 3.3em;
+    height: 3.3em;
+    margin-right: 5px;
+
+
+}
+
+header{
+ 
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom:solid 2px #B29E84 ;
+    margin-bottom: 10px;
+
+    padding: 0 5px;
+}
+
+header h1{
+    font-size: 1.8rem;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 400;
+    transition: 0.7s ease;
+
+}
+
+nav a:hover{
+    font-weight: 900;
+    text-shadow: 0 0 10px #fff;
+    
+    transform: scale(1.2);
+    color: whitesmoke;
+
+}
+
+
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.S1{
+    background-image: url(img/img2.png);
+    border-radius: 5px;
+    width:98%;
+    height: 50vh;
+    display: flex;
+    
+    align-items: end;
+}
+
+.S1 h1{
+    width: 7em;
+    font-size: 2.2rem;
+    margin-left:43px ;
+    margin-bottom: 43px;
+    text-shadow:0 0 10px #423E3A;
+}
+
+.S2{
+    margin: 20px 0;
+    display: flex;
+    width:98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.S2 img{
+    width: 14em;
+    border-radius: 5px;
+
+}
+
+article{
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+}
+
+article p{
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 1.3rem;
+}
+
+article button{
+    box-shadow: 1px 1px 10 black ;
+    width: 10em;
+    height: 7vh;
+    border: none;
+    border-radius: 25px;
+    font-size: 2rem;
+    font-weight: 800;
+    transition: 0.7s ease;
+
+}
+
+article button:hover{
+    background-color: #B29E84;
+    color: whitesmoke;
+    transform: scale(1.1);
+    text-shadow: 0 0 25px #fff;
+    box-shadow:0 0 15px rgb(96, 96, 96);
+}
+
+.imges{
+    width: 53%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+

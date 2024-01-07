@@ -1,0 +1,179 @@
+*{
+    font-family:monospace;
+    color: aliceblue;
+}
+
+section,header{
+    margin: auto;
+    width: 90%;
+}
+
+body{
+    background-color: #423E3A;
+    margin:  0;
+    height: 100vh;
+
+    
+}
+
+
+header img{
+    width: 3.3em;
+    height: 3.3em;
+    margin-right: 5px;
+
+
+}
+
+header{
+   
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom:solid 2px #B29E84 ;
+    margin-bottom: 10px;
+
+    padding: 0 5px;
+}
+
+header h1{
+    color: #B29E84;
+    font-size: 1.8rem;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header,nav a{
+    color: #B29E84;
+}
+
+nav{
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 400;
+    transition: 0.7s ease;
+
+}
+
+nav a:hover{
+    font-weight: 900;
+    text-shadow: 0 0 10px #fff;
+    
+    transform: scale(1.2);
+    color: whitesmoke;
+
+}
+
+section{
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+
+aside{
+    width: 50%;
+    padding-bottom:140px ;
+
+
+
+    
+}
+
+aside h1{
+    font-size: 2.8rem;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+aside h4{
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 10px;
+    color: #ffffffe4;
+}
+aside p{
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin: 0;
+    color: #ffffffcb;
+}
+aside h3{
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-bottom: 1px;
+}
+
+form{
+    
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+}
+
+
+input,textarea{
+    border: 1px solid #423e3a3f;
+    display:block;
+
+    width: 30em;
+    height: 3em;
+
+
+
+    margin:10px 0 ;
+    color: black;
+    font-weight: 900;
+
+    padding-left:8px ;
+
+}
+
+textarea{
+    height: 10em;
+    padding-left:8px ;
+}
+
+
+input::placeholder,textarea::placeholder{
+
+    color: #423E3A;
+    font-weight: 800;
+}
+
+
+input[type="submit"]{
+    width: 12em;
+    height: 2.5em;
+    border-radius: 30px;
+    border: none;
+
+}
+input[type="submit"]:hover{
+    transform: scale(1.1);
+    background-color: #B29E84;
+    color: #fff;
+    font-weight: 800;
+    text-shadow: 0 0 5px whitesmoke;
+
+}
+
+
+
+
+
